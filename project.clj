@@ -7,7 +7,7 @@
                  "https://dl.bintray.com/ijabz/maven"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [me.raynes/fs "1.4.6"]
-                 [net.jthink/jaudiotagger "2.2.6-SNAPSHOT"]]
+                 [net.jthink/jaudiotagger "2.2.5"]]
   :main ^:skip-aot audio-converter.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

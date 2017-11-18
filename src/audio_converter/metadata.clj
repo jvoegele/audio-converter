@@ -84,7 +84,7 @@
   [audio-file]
   (let [read-file
         (fn [f] (AudioFileIO/read (clojure.java.io/file audio-file)))]
-    (.delete (read-file audio-file))
+    (AudioFileIO/delete (read-file audio-file))
     (read-file audio-file)))
 
 (defn copy-artwork [src-tag dest-tag]
